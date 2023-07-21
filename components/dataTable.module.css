@@ -1,0 +1,33 @@
+.tableHeading {
+  display: grid;
+  grid-template-columns: 10% 10% 25% 20% 10% 10% 10%;
+  text-transform: capitalize;
+}
+.search {
+  display: block;
+  padding: 10px;
+  width: 30%;
+  margin: auto;
+}
+.heading {
+  padding: 5px;
+  color: grey;
+}
+.tableElement {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 10% 25% 20% 10% 10% 10%;
+}
+.tableElement:nth-of-type(even) {
+  background-color: #f9fafb;
+}
+.filter {
+  font-size: 16px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.label {
+  font-size: 20px;
+  font-weight: 600;
+}

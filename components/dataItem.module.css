@@ -1,0 +1,31 @@
+.Waiting {
+  background-color: #fef08a;
+  color: #713f12;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.Failed {
+  background-color: #fca5a5;
+  color: red;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.Paid {
+  background-color: #34d399;
+  color: green;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.selectButton {
+  width: 50%;
+  height: 50%;
+  border: none;
+  background-color: #e5e7eb;
+  margin-top: 13px;
+  padding: 5px;
+  border-radius: 5px;
+}
